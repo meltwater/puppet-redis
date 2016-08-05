@@ -1,6 +1,7 @@
 Difference between this fork and the original [puppet-redis](https://github.com/fsalum/puppet-redis):
 
 - Can rename commands with conf_rename_command
+- Add redis 3.0, 3.2 support by using the same config as redis 2.8
 
 ---
 
@@ -12,7 +13,7 @@ accepted in the parameterized class.
 
 ##Important
 
-If you are upgrading this module from 0.x to 1.0+, please test it carefully 
+If you are upgrading this module from 0.x to 1.0+, please test it carefully
 outside production as it is not fully backwards compatible.
 
 Some class parameters were added, removed or had their default values changed.
